@@ -15,7 +15,8 @@ public class UserController {
     UserDao userDao;
 
     @RequestMapping("/")
-    public List<Quote> getUser(){
+    public List<Quote> getQuotes(){
         return userDao.getQuotes();
     }
+
 }
